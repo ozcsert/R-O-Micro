@@ -3,7 +3,7 @@
 
 
 
-.header {
+#title {
     padding: 60px;
     text-align: center;
     background: #9dc7bf;
@@ -11,17 +11,17 @@
     font-size: 30px;
   }
 
-.body {
+#main {
     background-color: rgba(195, 175, 149,0.2);
 }
 
 
-.mainBox {
-        width: 300px;
+#img-div {
         border: 15px solid rgb(34, 44, 34);
         padding: 50px;
         margin: 20px;
-        height: 500px;
+        height: 600px;
+>>>>>>> 829bafdbf70f04f76bca319d9dc98a5c3d14e19b
 }
 
 
@@ -34,6 +34,7 @@
 
 
 .img {
+<<<<<<< HEAD
     
     height:450px;
     width:670px;
@@ -41,3 +42,39 @@
     padding: 20px;
 }
 
+=======
+    margin: auto;
+    height:450px;
+    max-width: 100%;
+    
+}
+
+figcaption {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+#tribute-info > p, h1 {
+   /* border: 1px black solid; */
+    text-align: center;
+    margin: 20px;
+}
+
+#tribute-info > h3 {
+    margin-left: 30px;
+}
+
+#tribute-info > ul {
+   /* border: solid black 1px;*/
+    margin: 20px;
+    letter-spacing: 0.04em;   
+}
+
+#tribute-info > ul > li {
+    font-family: 'Times New Roman';
+    
+}
+
+#tribute-link{
+    color: white;
+}
